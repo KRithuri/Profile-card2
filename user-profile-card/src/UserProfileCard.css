@@ -14,7 +14,7 @@ body{
     font-family:'Playfair Display', serif;
     width: 340px;
     overflow: hidden;
-    background: #fff;
+    background: lightblue;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -53,6 +53,18 @@ body{
     font-size: 16px;
     text-align: justify;
     padding: 0 20px 5px 20px;
+}
+.icons{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0abde3;
+    padding: 0 14px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+.icons .social-media:hover{
+    color: #000;
+    transform: scale(1.5);
 }
 /* .user-profile-card{
     background-color: lightblue;

@@ -13,27 +13,16 @@ function UserProfileCard() {
                     <img src={profile} alt="Profile"/>
                 </div>
                 <div className="card-content">
-                    <h2>Karabo Rithuri</h2>
-                    <h6>Bcom in Information Systems Undergraduate</h6>
-                    <h6>Aspiring Full Stack Developer</h6>
-                    <p>Technical skills: Python, C#, SQL, HTML, CSS, JavaScript</p>
+                    <h1>Karabo Rithuri</h1>
+                    <h5>Bcom in Information Systems Undergraduate</h5>
+                    
+                    <p>Technical skills:<br></br> Python, C#, SQL, HTML, CSS, Bootstrap, JavaScript, React</p>
                 </div>
                 <div className="icons">
-                    <FaTwitter/> <FaFacebook/> <FaLinkedin/> <FaGithub/> <FaEnvelope/> <FaInstagram/>
+                    <FaTwitter className='social-media' /> <FaFacebook className='social-media'/> <FaLinkedin className='social-media'/> <FaGithub className='social-media'/> <FaEnvelope className='social-media'/> <FaInstagram className='social-media'/>
                 </div>
             </div>
             
-            
-            <div className="right">
-                <div className="name-role">
-                    <div className="name">
-                        <h2>Karabo Rithuri</h2>
-                        <p>Bcom in Information Systems Undergraduate</p>
-                    </div>
-                </div>
-            </div>
-            
-            <p>A short bio about Karabo Rithuri...</p>
         </div>
     )
 }
