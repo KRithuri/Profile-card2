@@ -1,8 +1,7 @@
 import profile from  './Profile.JPG';
 import card from './html.jpg';
 import './UserProfileCard.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import {FaTwitter, FaFacebook, FaLinkedin, FaGithub, FaInstagram, FaEnvelope} from "react-icons/fa";
 function UserProfileCard() {
     return(
         <div className="user-profile-card">
@@ -20,7 +19,7 @@ function UserProfileCard() {
                     <p>Technical skills: Python, C#, SQL, HTML, CSS, JavaScript</p>
                 </div>
                 <div className="icons">
-                    <FontAwesomeIcon icon="facebook"/>
+                    <FaTwitter/> <FaFacebook/> <FaLinkedin/> <FaGithub/> <FaEnvelope/> <FaInstagram/>
                 </div>
             </div>
             
