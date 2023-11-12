@@ -1,4 +1,12 @@
-.user-profile-card{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    
+    background-image: linear-gradient(to right, #4682b4, #40e0d0, #008080);
+    font-family:'Playfair Display', serif;
+}
+
+/* .user-profile-card{
+    background-color: lightblue;
     border: 1px solid #333;
     padding: 50px;
     margin: 100px auto;
@@ -6,13 +14,14 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-.user-profile-card img{
+} */
+
+/* .user-profile-card img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
 .user-profile-card h2, .user-profile-card p{
-    margin: 10px 0;
-}
+    margin: 10px 0; */
+
