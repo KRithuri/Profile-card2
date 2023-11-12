@@ -27,7 +27,23 @@ body{
     border-top-right-radius: 10px;
     object-fit: cover;
 }
-
+.profile-image img{
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid #fff;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+.profile-image img:hover{
+    transform: scale(1.1);
+}
 /* .user-profile-card{
     background-color: lightblue;
     border: 1px solid #333;
