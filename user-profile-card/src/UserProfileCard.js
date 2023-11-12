@@ -16,7 +16,7 @@ function UserProfileCard() {
                     <h1>Karabo Rithuri</h1>
                     <h5>Bcom in Information Systems Undergraduate</h5>
                     
-                    <p>Technical skills:<br></br> Python, C#, SQL, HTML, CSS, Bootstrap, JavaScript, React</p>
+                    <p>Skills and Technologies:<br></br> Python, C#, SQL, HTML, CSS, Bootstrap, JavaScript, React</p>
                 </div>
                 <div className="icons">
                     <FaTwitter className='social-media' /> <FaFacebook className='social-media'/> <FaLinkedin className='social-media'/> <FaGithub className='social-media'/> <FaEnvelope className='social-media'/> <FaInstagram className='social-media'/>
