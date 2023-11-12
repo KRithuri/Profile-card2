@@ -1,0 +1,18 @@
+.user-profile-card{
+    border: 1px solid #333;
+    padding: 50px;
+    margin: 100px auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.user-profile-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-profile-card h2, .user-profile-card p{
+    margin: 10px 0;
+}
